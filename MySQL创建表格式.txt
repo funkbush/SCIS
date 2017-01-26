@@ -1,0 +1,25 @@
+create table scis
+(
+   Name char(20) NULL,
+   Pwd char(20) NULL
+)ENGINE=InnoDB;
+
+insert into scis value('funkbush','wjl19890527');
+
+CREATE TABLE IF NOT EXISTS sz002306(Date char(6) NULL,Time char(5) NULL,Price double(6,2) NULL,Qua bigint(20) NULL,Pro char(2) NULL)ENGINE=InnoDB;
+
+
+update sh601118 set Qua=Qua*(-1) where Pro="ÂôÅÌ";ÂòÅÌ
+update sh601118 set Qua=0 where Pro="ÖÐÐÔÅÌ";
+
+select Price,sum(Qua) from sh601118 where Date>=120104 and Date<=120105 and Qua>50 group by Price;
+
+select sum(Qua),sum(Qua*Price)/sum(Qua) from sh601118 where Date>=120104 and Date<=120105 and Qua>50 group by Price;
+
+DELIMITER //   
+create procedure myinsert(in date char(8),in time char(5),in price double,in qua bigint,in pro char(2)) 
+begin
+insert into test000980(Date,Time,Price,Qua,Pro) VALUES(date,time,price,qua,pro);
+end;
+//
+DELIMITER ;

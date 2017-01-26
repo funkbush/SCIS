@@ -1,0 +1,13 @@
+1
+create table file_contents
+(
+   file_num int NOT NULL AUTO_INCREMENT,
+   file_title char(100) NOT NULL,
+   file_id char(50) NULL,
+   file_date date NULL,
+   file_unit char(50) NULL,
+   file_box char(10) NULL,
+   file_cabinet char(10) NULL,
+   file_remarks TIMESTAMP NOT NULL,
+   PRIMARY KEY(file_num)
+)ENGINE=InnoDB;

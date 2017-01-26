@@ -1,0 +1,54 @@
+.DPFrame {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 9pt; BORDER-LEFT: black 1px solid; WIDTH: 140px; LINE-HEIGHT: normal; BORDER-BOTTOM: black 1px solid; FONT-STYLE: normal; BACKGROUND-COLOR: transparent; FONT-VARIANT: normal
+}
+#dpDropDownTable {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: lightgrey 1px solid; DISPLAY: none; BORDER-LEFT: lightgrey 1px solid; CURSOR: default; BORDER-BOTTOM: black 1px solid; POSITION: absolute; BACKGROUND-COLOR: #ffffff
+}
+.DPTitle {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; COLOR: #000000; LINE-HEIGHT: normal; FONT-STYLE: normal; BACKGROUND-COLOR: #e5e5e5; TEXT-ALIGN: center; FONT-VARIANT: normal
+}
+.DPWeekName {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; COLOR: #000000; LINE-HEIGHT: normal; BORDER-BOTTOM: black 1px solid; FONT-STYLE: normal; TEXT-ALIGN: center; FONT-VARIANT: normal
+}
+.DPCellOther {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; CURSOR: hand; COLOR: silver; LINE-HEIGHT: normal; FONT-STYLE: normal; TEXT-ALIGN: center; FONT-VARIANT: normal
+}
+.DPCell {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; CURSOR: hand; COLOR: #000000; LINE-HEIGHT: normal; FONT-STYLE: normal; TEXT-ALIGN: center; FONT-VARIANT: normal
+}
+.DPCellSelect {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; CURSOR: hand; COLOR: #000000; LINE-HEIGHT: normal; FONT-STYLE: normal; BACKGROUND-COLOR: #cccccc; TEXT-ALIGN: center; FONT-VARIANT: normal
+}
+.DPYear {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; FONT: 9pt ËÎÌו; BORDER-LEFT: 0px; COLOR: #333333; BORDER-BOTTOM: 0px; BACKGROUND-COLOR: transparent; TEXT-ALIGN: right
+}
+.DPYearDes {
+	BACKGROUND-COLOR: transparent
+}
+.DPMonth {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; FONT: 9pt ËÎÌו; BORDER-LEFT: 0px; COLOR: #333333; BORDER-BOTTOM: 0px; BACKGROUND-COLOR: transparent; TEXT-ALIGN: right
+}
+.DPMonthDes {
+	BACKGROUND-COLOR: transparent
+}
+.DPDay {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; FONT: 9pt ËÎÌו; BORDER-LEFT: 0px; COLOR: #333333; BORDER-BOTTOM: 0px; BACKGROUND-COLOR: transparent; TEXT-ALIGN: right
+}
+.DPDayDes {
+	BACKGROUND-COLOR: transparent
+}
+.DPSep {
+	WIDTH: 10px; BACKGROUND-COLOR: transparent
+}
+A.DPDropBtn:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.DPDropBtn:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.DPDropBtn:hover {
+	TEXT-DECORATION: none
+}
+.DPBtn {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: white 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 9pt; BORDER-LEFT: white 1px solid; WIDTH: 16px; COLOR: black; LINE-HEIGHT: normal; BORDER-BOTTOM: black 1px solid; FONT-STYLE: normal; BACKGROUND-COLOR: #cccccc; FONT-VARIANT: normal
+}
